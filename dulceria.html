@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Estrella - Dulcería</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff9999;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 36px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #dddddd;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff6666;
+        }
+
+        main {
+            background-color: white;
+            width: 70%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff6666;
+            margin-bottom: 30px;
+        }
+
+        .producto {
+            display: inline-block;
+            width: 300px;
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            vertical-align: top;
+        }
+
+        .producto img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .precio {
+            font-size: 20px;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CINEMA</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cartelera.html">Cartelera</a>
+        <a href="dulceria.html">Dulcería</a>
+        <a href="proximos.html">Próximos Estrenos</a>
+        <a href="instalaciones.html">Instalaciones</a>
+    </nav>
+
+    <main>
+        <h2>Nuestro Menú de Dulcería</h2>
+
+        <div class="producto">
+            <img src="imagenes/palomitas_grandes.png" alt="Palomitas">
+            <h3>Palomitas Grandes</h3>
+            <p>Clásicas palomitas con mantequilla.</p>
+            <p class="precio">$85.00</p>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/coca.png" alt="Refresco">
+            <h3>Refresco</h3>
+            <p>Variedad de sabores bien fríos.</p>
+            <p class="precio">$55.00</p>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/nachos_grandes_icon.png" alt="Nachos">
+            <h3>Nachos con Queso</h3>
+            <p>Crujientes con mucho queso caliente.</p>
+            <p class="precio">$70.00</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;Cine Estrella - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>

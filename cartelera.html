@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Estrella - Cartelera</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff9999;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 36px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #dddddd;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff6666;
+        }
+
+        main {
+            background-color: white;
+            width: 70%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff6666;
+            margin-bottom: 30px;
+        }
+
+        .pelicula {
+            border: 2px solid #eee;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            width: 80%;
+        }
+
+        .pelicula img {
+            width: 150px;
+            height: 220px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .pelicula h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .horarios {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #ff6666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CINEMA</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cartelera.html">Cartelera</a>
+        <a href="dulceria.html">Dulcería</a>
+        <a href="proximos.html">Próximos Estrenos</a>
+        <a href="instalaciones.html">Instalaciones</a>
+    </nav>
+
+    <main>
+        <h2>Cartelera Actual</h2>
+
+        <div class="pelicula">
+            <img src="imagenes/shrek 2.jpg" alt="Poster Pelicula 1">
+            <h3>Shrek 2</h3>
+            <p><strong>Horarios:</strong></p>
+            <p class="horarios">14:00 | 16:30 | 19:00 | 21:30</p>
+        </div>
+
+        <div class="pelicula">
+            <img src="imagenes/zootopia.jpg" alt="Poster Pelicula 2">
+            <h3>Zootopia</h3>
+            <p><strong>Horarios:</strong></p>
+            <p class="horarios">13:00 | 15:45 | 18:20</p>
+        </div>
+
+        <div class="pelicula">
+            <img src="imagenes/marioBroa.jpg" alt="Poster Pelicula 3">
+            <h3>Mario Bros la pelicula</h3>
+            <p><strong>Horarios:</strong></p>
+            <p class="horarios">17:00 | 20:00 | 22:30</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;Cine Estrella - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
